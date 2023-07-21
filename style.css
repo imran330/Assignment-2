@@ -1,13 +1,31 @@
 body{
-margin: 0;
-padding:0;
-}
-ul>li{
-    text-decoration: none;
-}
-ul{
-    display: flex;
+font-family: 'Open Sans', sans-serif;
 }
 header{
-    display: flex;
+    background-color: white;
 }
+
+nav{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+}
+nav > ul{
+    display: flex;
+    
+}
+nav li{
+    list-style: none;
+    margin-right: 20px;
+    font-family: work sans;
+    
+}
+nav li a{
+    text-decoration: none;
+}
+.logo title{
+    color: #FF3B94;
+}
+
+    
