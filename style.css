@@ -1,31 +1,80 @@
-body{
-font-family: 'Open Sans', sans-serif;
-}
-header{
-    background-color: white;
+body {
+    font-family: 'Work Sans', sans-serif;
+    margin: 0;
 }
 
-nav{
+header {
+    background: #FFF;
+    box-shadow: 0px 4px 30px 0px rgba(0, 0, 0, 0.05);
+    max-width: 1920px;
+    height: 130px;
+    padding-left: 240px;
+    padding-right: 240px;
+}
+
+nav {
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
     align-items: center;
 
 }
-nav > ul{
+
+nav>ul {
     display: flex;
-    
+    align-items: center;
+
 }
-nav li{
+
+nav li {
     list-style: none;
     margin-right: 20px;
     font-family: work sans;
-    
+
 }
-nav li a{
+
+nav li a {
     text-decoration: none;
+    color: #3C354F;
+    font-size: 18px;
+    font-weight: 500;
 }
-.logo title{
+
+.logo {
+    justify-content: start;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+nav h1 {
+    font-size: 45px;
+    font-weight: 700;
+}
+
+.logo-title {
     color: #FF3B94;
 }
 
-    
+.follow {
+    display: flex;
+    width: 262px;
+    height: 56px;
+    border-radius: 8px;
+    background: rgba(11, 2, 35, 0.10);
+    align-items: center;
+
+    justify-content: center;
+}
+
+/* main section start */
+main {
+    padding-left: 240px;
+    padding-right: 240px;
+}
+.goat{
+    max-width: 1920px;
+    display: flex;
+}
+.goat img{
+    width: 100%;
+}
