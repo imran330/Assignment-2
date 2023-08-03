@@ -8,8 +8,8 @@ header {
     box-shadow: 0px 4px 30px 0px rgba(0, 0, 0, 0.05);
     max-width: 1920px;
     height: 130px;
-    padding-left: 240px;
-    padding-right: 240px;
+    padding-left: 200px;
+    padding-right: 200px;
 }
 
 nav {
@@ -62,7 +62,6 @@ nav h1 {
     border-radius: 8px;
     background: rgba(11, 2, 35, 0.10);
     align-items: center;
-
     justify-content: center;
 }
 
@@ -70,11 +69,8 @@ nav h1 {
 .goat {
     max-width: 1920px;
     display: flex;
+    margin: auto;
     justify-content: space-between;
-}
-
-.goat img {
-    width: 100%;
 }
 
 .goat-left {
@@ -83,7 +79,6 @@ nav h1 {
     width: 901px;
     height: 700px;
     position: relative;
-    /* right: 100px; */
 
 
 }
@@ -94,7 +89,9 @@ nav h1 {
     font-size: 48px;
     font-weight: 600;
     text-transform: uppercase;
-    margin-top: 150px;
+    margin-top: 148px;
+    margin-bottom: -80px;
+    padding-right: 9.8rem;
 }
 
 .goat-title {
@@ -106,20 +103,175 @@ nav h1 {
     font-size: 95px;
     font-weight: 800;
     text-transform: uppercase;
+    margin-bottom: -5px;
+    padding-right: 9.8rem;
 }
 
-.goat-images{
-    position: relative;
-    right: 150px;
+.goat-images {
+    width: 100%;
 }
 
-.icon img{
+.icon img {
     width: 24px;
     height: 24px;
 }
-.icon1, .icon2, .icon3{
+
+.icon1,
+.icon2,
+.icon3 {
     display: flex;
     align-items: center;
-    gap: 5px;
-    
+    gap: 3px;
+    padding-left: 12.3rem;
+}
+
+.btn-1 {
+    border-radius: 48px;
+    background: var(--linear, linear-gradient(90deg, #FF42A5 0%, #FF42A5 100%));
+    padding: 21px 40px;
+    gap: 10px;
+    color: #FFF;
+    font-size: 20px;
+    font-weight: 600;
+    text-transform: uppercase;
+    border: none;
+    margin-right: 10px;
+    cursor: pointer;
+}
+
+.btn-2 {
+
+    padding: 21px 40px;
+    gap: 10px;
+    border-radius: 48px;
+    background: #4EC5F7;
+    color: #FFF;
+    font-size: 20px;
+    font-weight: 600;
+    text-transform: uppercase;
+    border: none;
+    cursor: pointer;
+}
+
+.goat-btn {
+    padding-left: 12.3rem;
+    padding-top: 2.5rem;
+}
+
+/* Gamer section start */
+.gamer {
+    padding-left: 200px;
+    padding-right: 200px;
+    display: flex;
+    max-width: 1920px;
+    margin-top: 60px;
+    margin-bottom: 60px;
+}
+
+.gamer-img img {
+    max-width: 600px;
+    height: 100%;
+
+}
+
+.gamer-content {
+    align-items: right;
+    text-align: right;
+    justify-content: right;
+}
+
+.gamer-heading {
+    background: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    text-align: right;
+    font-size: 48px;
+    font-weight: 700;
+}
+
+.gamer-p {
+    color: #534C64;
+    text-align: right;
+    font-size: 18px;
+    font-weight: 400;
+    max-width: 520px;
+}
+
+.gamer-btn {
+    border-radius: 48px;
+    background: var(--linear, linear-gradient(90deg, #FF42A5 0%, #FF42A5 100%));
+    padding: 21px 40px;
+    gap: 10px;
+    color: #FFF;
+    font-size: 20px;
+    font-weight: 600;
+    text-transform: uppercase;
+    border: none;
+
+}
+
+.div-gamer-btn {
+    text-align: right;
+    padding-top: 20px;
+}
+
+.gamer-des {
+    max-width: 520px;
+    color: #534C64;
+    text-align: right;
+    font-size: 32px;
+    font-weight: 700;
+}
+
+.purpose {
+    color: #534C64;
+    text-align: right;
+    font-size: 24px;
+    font-weight: 500;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media screen and (max-width:576px) {
+
+    nav,
+    nav>ul, .goat, .gamer {
+        flex-direction: column;
+        gap: 20px;
+    }
+.goat{
+    flex-direction: column-reverse;
+}
+    .goat-images {
+        max-width: 200px;
+        height: 446px;
+        left: 160px;
+        top: 100px;
+    }
 }
