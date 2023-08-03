@@ -7,7 +7,8 @@ header {
     background: #FFF;
     box-shadow: 0px 4px 30px 0px rgba(0, 0, 0, 0.05);
     max-width: 1920px;
-    height: 130px;
+    margin: auto;
+    /* height: 130px; */
     padding-left: 200px;
     padding-right: 200px;
 }
@@ -70,15 +71,16 @@ nav h1 {
     max-width: 1920px;
     display: flex;
     margin: auto;
-    justify-content: space-between;
+    justify-content: space-around;
 }
 
 .goat-left {
     background-image: url(images/Group\ 14.png);
     background-repeat: no-repeat;
-    width: 901px;
+    width: 100%;
     height: 700px;
-    position: relative;
+    background-position: left;
+    
 
 
 }
@@ -91,7 +93,7 @@ nav h1 {
     text-transform: uppercase;
     margin-top: 148px;
     margin-bottom: -80px;
-    padding-right: 9.8rem;
+    padding-right: 5rem;
 }
 
 .goat-title {
@@ -104,11 +106,13 @@ nav h1 {
     font-weight: 800;
     text-transform: uppercase;
     margin-bottom: -5px;
-    padding-right: 9.8rem;
+    padding-right: 5rem;
 }
 
-.goat-images {
-    width: 100%;
+.goat-images img {
+    max-width: 500px;
+    height: 650px;
+    padding-right: 12rem;
 }
 
 .icon img {
@@ -154,7 +158,7 @@ nav h1 {
 }
 
 .goat-btn {
-    padding-left: 12.3rem;
+    padding-left: 12rem;
     padding-top: 2.5rem;
 }
 
@@ -265,13 +269,52 @@ nav h1 {
         flex-direction: column;
         gap: 20px;
     }
+    header{
+        margin-bottom: 100px;
+        box-shadow: none;
+        padding-left: 0;
+        padding-right: 0;
+    }
+
 .goat{
     flex-direction: column-reverse;
+    align-items: center;
 }
-    .goat-images {
-        max-width: 200px;
-        height: 446px;
-        left: 160px;
-        top: 100px;
-    }
+.goat-images img {
+    width: 100%;
+    padding-right: 0;
+}
+.goat-btn{
+    padding-left: 4rem;
+}
+.icon1{
+    padding-left: 4.5rem;
+}
+.icon2{
+    padding-left: 4.5rem;
+}
+.icon3{
+    padding-left: 4.5rem;
+}
+.gamer{
+    padding-left: 20px;
+    padding-right: 0;
+}
+.gamer-img img{
+    max-width: 500px;
+}
+.gamer-heading{
+    text-align: center;
+}
+.gamer-p{
+    text-align: center;
+}
+.div-gamer-btn{
+    text-align: center;
+}
+.gamer-des{
+    text-align: center;
+}
+
+
 }
