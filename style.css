@@ -72,6 +72,7 @@ nav h1 {
     display: flex;
     margin: auto;
     justify-content: space-around;
+    
 }
 
 .goat-left {
@@ -168,8 +169,9 @@ nav h1 {
     padding-right: 200px;
     display: flex;
     max-width: 1920px;
-    margin-top: 60px;
+    padding-top: 60px;
     margin-bottom: 60px;
+    background: linear-gradient(90deg, rgba(255, 66, 165, 0.03) 0%, rgba(255, 66, 165, 0.03) 100%);
 }
 
 .gamer-img img {
@@ -813,7 +815,6 @@ footer {
     .footer-social-logo{
         display: grid;
         grid-template-columns: repeat(3, 1fr);
-        
         
     }
     .footer-policy-text{
