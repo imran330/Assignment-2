@@ -365,7 +365,6 @@ nav h1 {
     padding-left: 200px;
     padding-right: 200px;
     max-width: 1920px;
-    margin-bottom: 60px;
     background: #FAF5F8;
     padding-top: 120px;
     padding-bottom: 120px;
@@ -382,7 +381,7 @@ nav h1 {
     font-size: 20px;
     font-weight: 600;
     text-align: center;
-    border:1px solid white;
+    border: 1px solid white;
     background-image: url(images/Rectangle\ 11.png);
     background-repeat: no-repeat;
     background-position: left;
@@ -391,9 +390,10 @@ nav h1 {
     cursor: pointer;
     /* transition: border 0.3s; */
 }
-.btn-11:hover{
+
+.btn-11:hover {
     cursor: pointer;
-    border:1px solid #FF42A5;
+    border: 1px solid #FF42A5;
     color: #FF42A5;
 }
 
@@ -406,7 +406,7 @@ nav h1 {
     font-size: 20px;
     font-weight: 600;
     text-align: center;
-    border:1px solid white;
+    border: 1px solid white;
     background-image: url(images/Rectangle\ 12.png);
     background-repeat: no-repeat;
     background-position: left;
@@ -415,9 +415,10 @@ nav h1 {
     cursor: pointer;
     /* transition: border 0.3s; */
 }
-.btn-12:hover{
+
+.btn-12:hover {
     cursor: pointer;
-    border:1px solid #FF42A5;
+    border: 1px solid #FF42A5;
     color: #FF42A5;
 }
 
@@ -430,7 +431,7 @@ nav h1 {
     font-size: 20px;
     font-weight: 600;
     text-align: center;
-    border:1px solid white;
+    border: 1px solid white;
     background-image: url(images/Rectangle\ 13.png);
     background-repeat: no-repeat;
     background-position: left;
@@ -439,9 +440,10 @@ nav h1 {
     cursor: pointer;
     /* transition: border 0.3s; */
 }
-.btn-13:hover{
+
+.btn-13:hover {
     cursor: pointer;
-    border:1px solid #FF42A5;
+    border: 1px solid #FF42A5;
     color: #FF42A5;
 }
 
@@ -454,7 +456,7 @@ nav h1 {
     font-size: 20px;
     font-weight: 600;
     text-align: center;
-    border:1px solid white;
+    border: 1px solid white;
     background-image: url(images/Rectangle\ 14.png);
     background-repeat: no-repeat;
     background-position: left;
@@ -463,9 +465,10 @@ nav h1 {
     cursor: pointer;
     /* transition: border 0.3s; */
 }
-.btn-14:hover{
+
+.btn-14:hover {
     cursor: pointer;
-    border:1px solid #FF42A5;
+    border: 1px solid #FF42A5;
     color: #FF42A5;
 }
 
@@ -478,7 +481,7 @@ nav h1 {
     font-size: 20px;
     font-weight: 600;
     text-align: center;
-    border:1px solid white;
+    border: 1px solid white;
     background-image: url(images/Rectangle\ 15.png);
     background-repeat: no-repeat;
     background-position: left;
@@ -487,17 +490,18 @@ nav h1 {
     cursor: pointer;
     /* transition: border 0.3s; */
 }
-.btn-15:hover{
+
+.btn-15:hover {
     cursor: pointer;
-    border:1px solid #FF42A5;
+    border: 1px solid #FF42A5;
     color: #FF42A5;
 }
 
-.btn-5{
-display: grid;
-grid-template-columns: repeat(5, 1fr);
-gap: 20px;
-justify-content: center;
+.btn-5 {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    gap: 20px;
+    justify-content: center;
 }
 
 .btn-16 {
@@ -509,7 +513,7 @@ justify-content: center;
     font-size: 20px;
     font-weight: 600;
     text-align: center;
-    border:1px solid white;
+    border: 1px solid white;
     background-image: url(images/Rectangle\ 16.png);
     background-repeat: no-repeat;
     background-position: left;
@@ -518,11 +522,13 @@ justify-content: center;
     cursor: pointer;
     /* transition: border 0.3s; */
 }
-.btn-16:hover{
+
+.btn-16:hover {
     cursor: pointer;
-    border:1px solid #FF42A5;
+    border: 1px solid #FF42A5;
     color: #FF42A5;
 }
+
 .btn-17 {
     width: 317px;
     height: 80px;
@@ -532,7 +538,7 @@ justify-content: center;
     font-size: 20px;
     font-weight: 600;
     text-align: center;
-    border:1px solid white;
+    border: 1px solid white;
     background-image: url(images/Rectangle\ 17.png);
     background-repeat: no-repeat;
     background-position: left;
@@ -541,9 +547,10 @@ justify-content: center;
     cursor: pointer;
     /* transition: border 0.3s; */
 }
-.btn-17:hover{
+
+.btn-17:hover {
     cursor: pointer;
-    border:1px solid #FF42A5;
+    border: 1px solid #FF42A5;
     color: #FF42A5;
 }
 
@@ -556,7 +563,7 @@ justify-content: center;
     font-size: 20px;
     font-weight: 600;
     text-align: center;
-    border:1px solid white;
+    border: 1px solid white;
     background-image: url(images/Rectangle\ 18.png);
     background-repeat: no-repeat;
     background-position: left;
@@ -565,9 +572,10 @@ justify-content: center;
     cursor: pointer;
     /* transition: border 0.3s; */
 }
-.btn-18:hover{
+
+.btn-18:hover {
     cursor: pointer;
-    border:1px solid #FF42A5;
+    border: 1px solid #FF42A5;
     color: #FF42A5;
 }
 
@@ -580,7 +588,7 @@ justify-content: center;
     font-size: 20px;
     font-weight: 600;
     text-align: center;
-    border:1px solid white;
+    border: 1px solid white;
     background-image: url(images/Rectangle\ 19.png);
     background-repeat: no-repeat;
     background-position: left;
@@ -589,20 +597,60 @@ justify-content: center;
     cursor: pointer;
     /* transition: border 0.3s; */
 }
-.btn-19:hover{
+
+.btn-19:hover {
     cursor: pointer;
-    border:1px solid #FF42A5;
+    border: 1px solid #FF42A5;
     color: #FF42A5;
 }
 
-.btn-4{
+.btn-4 {
     margin-top: 28px;
     display: grid;
     grid-template-columns: repeat(4, 1fr);
     gap: 20px;
     justify-content: center;
-    }
+}
 
+/* footer section start */
+footer {
+    background-color: #0B0223;
+    max-width: 1920px;
+    height: 636px;
+    justify-content: center;
+}
+
+.footer-logo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    padding-top: 120px;
+}
+
+.logo-title-footer {
+    color: #FF3B94;
+}
+
+.footer-logo h1 {
+    color: #FFF;
+    font-size: 45px;
+    font-weight: 700;
+}
+
+.footer-logo-p {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 60px;
+}
+
+.footer-logo-p p {
+    color: #FFF;
+    text-align: center;
+    font-size: 18px;
+    font-weight: 600;
+}
 
 
 
@@ -629,7 +677,7 @@ justify-content: center;
     .goat,
     .gamer,
     .funny-img-container,
-    .instantly{
+    .instantly {
         flex-direction: column;
         gap: 20px;
     }
@@ -715,10 +763,12 @@ justify-content: center;
     .instantly-p {
         text-align: center;
     }
-    .btn-5, .btn-4{
+
+    .btn-5,
+    .btn-4 {
         display: grid;
         grid-template-columns: repeat(1, 1fr);
         justify-content: center;
-        
+
     }
 }
