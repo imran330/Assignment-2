@@ -386,7 +386,8 @@ nav h1 {
     nav>ul,
     .goat,
     .gamer,
-    .funny-img-container {
+    .funny-img-container,
+    .instantly {
         flex-direction: column;
         gap: 20px;
     }
@@ -454,4 +455,21 @@ nav h1 {
         align-items: center;
     }
 
+    .rect-55 {
+        width: 318.5px;
+        height: 365.083px;
+    }
+
+    .instantly-img {
+        width: 218px;
+        height: 248px;
+        bottom: 180px;
+        right: 100px;
+    }
+    .instantly-heading{
+        text-align: center;
+    }
+    .instantly-p{
+        text-align: center;
+    }
 }
