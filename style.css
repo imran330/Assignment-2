@@ -344,7 +344,8 @@ nav h1 {
     nav,
     nav>ul,
     .goat,
-    .gamer {
+    .gamer,
+    .funny-img-container {
         flex-direction: column;
         gap: 20px;
     }
@@ -407,5 +408,9 @@ nav h1 {
         text-align: center;
     }
 
+    .funny-img-container {
+        /* justify-content: center; */
+        align-items: center;
+    }
 
 }
