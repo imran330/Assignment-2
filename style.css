@@ -369,8 +369,8 @@ nav h1 {
     background: #FAF5F8;
     padding-top: 120px;
     padding-bottom: 120px;
-    margin-left: auto;
-    margin-right: auto;
+
+
 }
 
 .btn-11 {
@@ -629,7 +629,7 @@ justify-content: center;
     .goat,
     .gamer,
     .funny-img-container,
-    .instantly {
+    .instantly{
         flex-direction: column;
         gap: 20px;
     }
@@ -714,5 +714,11 @@ justify-content: center;
 
     .instantly-p {
         text-align: center;
+    }
+    .btn-5, .btn-4{
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        justify-content: center;
+        
     }
 }
